@@ -41,12 +41,6 @@
                             <label for="program" class="form-label">Deskripsi Umum Program (di halaman Program Kami)</label>
                             <textarea class="form-control" id="program" name="program" rows="3">{{ old('program', $profil->program) }}</textarea>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 mb-3"><label for="magang">Magang</label><textarea class="form-control" id="magang" name="magang">{{ old('magang', $profil->magang) }}</textarea></div>
-                            <div class="col-md-6 mb-3"><label for="kuliah">Kuliah</label><textarea class="form-control" id="kuliah" name="kuliah">{{ old('kuliah', $profil->kuliah) }}</textarea></div>
-                            <div class="col-md-6 mb-3"><label for="travel">Travel</label><textarea class="form-control" id="travel" name="travel">{{ old('travel', $profil->travel) }}</textarea></div>
-                            <div class="col-md-6 mb-3"><label for="eks_korea">Eks Korea</label><textarea class="form-control" id="eks_korea" name="eks_korea">{{ old('eks_korea', $profil->eks_korea) }}</textarea></div>
-                        </div>
                         {{-- DIV UNTUK ALAMAT DAN KONTAK SUDAH DIHAPUS DARI SINI --}}
                     </div>
                 </div>
